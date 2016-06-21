@@ -26,5 +26,6 @@ All PR are welcome!
 
 ### Screenshots
 ![screenshot](https://github.com/highmax/xk-power-music-player/blob/master/screenshot.png)
+
+![screenshot2](https://github.com/highmax/xk-power-music-player/blob/master/screenshot2.png)
  
-[https://github.com/highmax/xk-power-music-player/blob/master/screenshot2.png|alt=screenshot2]
