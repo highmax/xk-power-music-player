@@ -23,3 +23,8 @@ TODO:
 * Use a different play list with other music genre, actually the random mode choose just a genre.
 
 All PR are welcome!
+
+### Screenshots
+[[https://github.com/highmax/xk-power-music-player/blob/master/screenshot.png|alt=screenshot]]
+ 
+[[https://github.com/highmax/xk-power-music-player/blob/master/screenshot2.png|alt=screenshot2]]
