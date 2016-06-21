@@ -1,0 +1,185 @@
+/* Box sizing resets*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Body resets and fancy font*/
+body{
+  margin: 0;
+  font-family: 'Exo 2', sans-serif;
+  background-color: #ec0928;
+}
+
+.xk_player {
+  position: relative;
+}
+
+.search div, .search input {
+  width: 100%;
+}
+
+.search input {
+  border: none;
+  border-bottom: 2px solid #ec0928;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+}
+
+.details h3{
+  text-align: center;
+  padding: 50px 10px;
+  margin: 0;
+  color: white;
+}
+
+.player{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.player div{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.player .player__backward button,
+.player .player__forward button{
+  background: transparent;
+  border: 3px solid #FFF;
+  color: #FFF;
+  transform: skewX(-30deg);
+  width: 75px;
+  height: 75px;
+  font-size: 35px;
+  outline: none;
+  transition: 0.3s background;
+}
+
+.player .player__main {
+  background: transparent;
+  transition: 0.3s background;
+}
+
+.player .player__main:hover button {
+  color: #ec0928;
+}
+
+.player .player__main button:hover,
+.player .player__backward button:hover,
+.player .player__forward button:hover{
+  color: rgba(236, 9, 40, 0.7);
+  cursor: pointer;
+}
+
+
+.player .player__main:hover,
+.player .player__backward button:hover,
+.player .player__forward button:hover{
+  background-color: white;
+  border-color: white;
+}
+
+.player .player__main {
+  border: 3px solid #FFF;
+  transform: skewX(-30deg);
+}
+
+.player .player__main button {
+  color: #FFF;
+  background: transparent;
+  width: 75px;
+  height: 75px;
+  border: none;
+  font-size: 35px;
+  outline: none;
+}
+
+.player .player__backward button > i,
+.player .player__forward button > i,
+.player .player__main button > i {
+  transform: skewX(30deg);
+}
+
+.progress{
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}
+
+.progress progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 390px;
+  height: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border: 1px #FFF solid;
+  transform: skewX(-30deg);
+}
+
+.progress progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.progress progress[value]::-webkit-progress-value {
+    background-color: #ec0928;
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.footer{
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: #13426a;
+}
+
+.footer p{
+  text-align: center;
+}
+
+.footer .logo{
+  height: auto;
+  width: 100px;
+}
+.footer .soundcloud{
+  height: 25px;
+  width: auto;
+}
+
+.footer span,
+.footer img,
+.footer .logo,
+.footer .soundcloud,
+.footer .fa {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+#title {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  z-index: 100;
+}
+
+.waves {
+  width: 100%;
+  height: 130px;
+  top: 15%;
+  position: absolute;
+  z-index: 100;
+  background-color: #000;
+  opacity: 0.2;
+}
